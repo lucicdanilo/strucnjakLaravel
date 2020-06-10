@@ -21,7 +21,7 @@
         </div>
       </div>
       <footer>
-      <div class="flex bg-gray-200">
+      <div class="flex mx-32">
         <div class="flex-1 text-gray-700 text-center bg-gray-400 py-2 m-2">
           <div class="text-2xl m-3">Stručnjak.me</div>
           <div class="m-3 p-3">
@@ -35,11 +35,11 @@
           </div>  
         </div>
         <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
-          <div class="text-2xl m-3">Kontak</div>
+          <div class="text-2xl m-3">Kontakt</div>
           <div class="m-3 p-3">
             Radosava Burića 165<br/>
             Telefon: (020) 648-234<br/>
-            Email: lucic.danilo94@gmail.com
+            Email: <a class="text-red-600">lucic.danilo94@gmail.com
           </div>
         </div>
       </div>
