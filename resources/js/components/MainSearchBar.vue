@@ -31,18 +31,18 @@
             </select>
             <select id="categories" class="px-2 py-2 w-46 border-l" value="dasdasd">
                 <option value="">Kategorija</option>
-                <option value="građevinarstvo" class="px-1">Građevinarstvo</option>
-                <option value="transport" class="px-1">Transport</option>
-                <option value="zdrastvoInjega" class="px-1">Zdrastvene usluge i njega</option>
+                <option value="građevinarstvo" class="">Građevinarstvo</option>
+                <option value="transport" class="">Transport</option>
+                <option value="zdrastvoInjega" class="">Zdrastvene usluge i njega</option>
             </select>
             <button class="text-white px-4 py-2 bg-red-600 rounded-full font-bold">Pretraga</button>
         </div>
     </div>
     <div>
         <div class="m-4">Najpopularnije kategorije:</div>
-        <div class="inline-block bg-gray-300 rounded-full px-4 py-2"><a href="/kategorije/građevinarstvo">Građevinarstvo</a></div>
-        <div class="inline-block bg-gray-300 rounded-full px-4 py-2"><a href="/kategorije/ljepotaNjegaMedicinskeUsluge">Ljepota, njega i medicinske usluge</a></div>
-        <div class="inline-block bg-gray-300 rounded-full px-4 py-2"><a href="/kteforije/edukacijaIobrazovanje">Edukacija i obrazovanje</a></div>
+        <div class="inline-block bg-gray-300 rounded-full px-4 py-2 mx-1"><a href="/kategorije/građevinarstvo">Građevinarstvo</a></div>
+        <div class="inline-block bg-gray-300 rounded-full px-4 py-2 mx-1"><a href="/kategorije/ljepotaNjegaMedicinskeUsluge">Ljepota, njega i medicinske usluge</a></div>
+        <div class="inline-block bg-gray-300 rounded-full px-4 py-2 mx-1"><a href="/kteforije/edukacijaIobrazovanje">Edukacija i obrazovanje</a></div>
     </div>
 </div>
 </template>

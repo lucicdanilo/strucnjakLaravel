@@ -21,8 +21,9 @@ window.Vue = require('vue');
 
 Vue.component('nav-bar', require('./components/NavBar.vue').default);
 Vue.component('main-search-bar', require('./components/MainSearchBar.vue').default)
-Vue.component('popular-categories', require('./components/PopularCategories').default)
+Vue.component('categories', require('./components/Categories').default)
 Vue.component('popular-experts', require('./components/PopularExperts').default)
+Vue.component('user-recommendations', require('./components/UserRecommendations').default)
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

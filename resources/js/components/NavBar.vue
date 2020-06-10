@@ -11,8 +11,8 @@
             <a href="/usluge" class="inline-block px-5 py-6 text-lg">Usluge</a>
         </div>
         <div class="flex-1 bg-green-200 text-center py-6">
-            <a href="/prijava" class="inline-block px-4 py-2 text-lg text-white font-bold bg-gray-600 hover:bg-gray-700 rounded-full">Prijavi se</a>
-            <a href="/registracija" class="inline-block px-4 py-2 text-lg text-white font-bold bg-red-600 hover:bg-red-700 rounded-full">Registruj se</a>
+            <a href="/prijava" class="inline-block px-4 py-2 text-lg text-white font-bold bg-gray-600 hover:bg-gray-700 rounded-full mr-2">Prijavi se</a>
+            <a href="/registracija" class="inline-block px-4 py-2 text-lg text-white font-bold bg-red-600 hover:bg-red-700 rounded-full ml-2">Registruj se</a>
         </div>
     </div>
 </header>
