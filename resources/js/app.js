@@ -24,6 +24,7 @@ Vue.component('main-search-bar', require('./components/MainSearchBar.vue').defau
 Vue.component('categories', require('./components/Categories').default)
 Vue.component('popular-experts', require('./components/PopularExperts').default)
 Vue.component('user-recommendations', require('./components/UserRecommendations').default)
+Vue.component('registration-form', require('./components/RegistrationForm.vue').default)
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
