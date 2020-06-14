@@ -8,6 +8,7 @@ use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Http\Request;
 
 class RegisterController extends Controller
 {
@@ -53,6 +54,7 @@ class RegisterController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'photo' => ['required', 'image']
         ]);
     }
 
@@ -68,6 +70,25 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            'photo' => $data['photo']
         ]);
     }
+
+    public function register(Request $request){
+        $this->validator($request->all())->validate();
+        $imageUrl = $this->storeImage($request);
+
+        $data = $request->all();
+        $data['photo'] = $imageUrl;
+        $user = $this->create($data);
+
+        $this->guard()->login($user);
+
+        return $this->registered($request, $user) ?: redirect($this->redirectPath());
+    }
+
+    protected function storeImage(Request $request) {
+        $path = $request->file('photo')->store('public/profile');
+        return substr($path, strlen('public/'));
+      }
 }
