@@ -15,6 +15,8 @@
                     @endif
 
                     You are logged in!
+
+                    <img src="{{asset('storage/'.$user->photo)}}" class="card-img-top" alt="...">
                 </div>
             </div>
         </div>
