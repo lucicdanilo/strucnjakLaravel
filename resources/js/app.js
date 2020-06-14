@@ -26,6 +26,8 @@ Vue.component('popular-experts', require('./components/PopularExperts').default)
 Vue.component('user-recommendations', require('./components/UserRecommendations').default)
 Vue.component('registration-form', require('./components/RegistrationForm.vue').default)
 
+Vue.component('home-nav-bar', require('./components/home/HomeNavBar.vue').default);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

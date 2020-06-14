@@ -6,7 +6,6 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Registracija') }}</div>
-
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}" enctype="multipart/form-data">
                         @csrf
@@ -63,7 +62,7 @@
 
                         <div class="form-group">
                             <label for="photo">Attach a photograph</label>
-                            <input type="file" name="photo" id="photo" accept="images/*" class="form-control-file" required>
+                            <input type="file" name="photo" id="photo" accept="images/*" class="form-control-file">
                         </div>
 
                         <div class="form-group row mb-0">
