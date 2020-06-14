@@ -38314,15 +38314,31 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "flex-1 bg-green-200 text-center py-6" }, [
-      _c(
-        "a",
-        {
-          staticClass:
-            "inline-block px-4 py-2 text-lg text-white font-bold bg-gray-600 hover:bg-gray-700 rounded-full mr-2",
-          attrs: { href: "/prijava" }
-        },
-        [_vm._v("Prijavi se")]
-      ),
+      _c("div", { staticClass: "w-10 h-10 absolute mb-4" }, [
+        _c(
+          "div",
+          {
+            staticClass:
+              "group w-full h-full rounded-full overflow-hidden shadow-inner text-center bg-purple table cursor-pointer"
+          },
+          [
+            _c(
+              "span",
+              {
+                staticClass:
+                  "hidden group-hover:table-cell text-white font-bold align-middle"
+              },
+              [_vm._v("KR")]
+            ),
+            _vm._v(" "),
+            _c("img", {
+              staticClass:
+                "object-cover object-center w-full h-full visible group-hover:hidden",
+              attrs: { src: "", alt: "avatar" }
+            })
+          ]
+        )
+      ]),
       _vm._v(" "),
       _c(
         "a",
