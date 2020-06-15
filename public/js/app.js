@@ -1985,6 +1985,82 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/createJob/CreateJobForm.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/createJob/CreateJobForm.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      routeName: "{{route(job.store)}}"
+    };
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/home/HomeContent.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/home/HomeContent.vue?vue&type=script&lang=js& ***!
@@ -38208,160 +38284,235 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "inline-block absolute" }, [
+    _c("h1", { staticClass: "text-xl font-bold text-center" }, [
+      _vm._v("Informacije o poslu")
+    ]),
+    _vm._v(" "),
+    _c(
+      "form",
+      {
+        staticClass: "bg-white shadow-md rounded px-64",
+        attrs: { action: _vm.routeName, method: "POST" }
+      },
+      [
+        _vm._m(0),
+        _vm._v(" "),
+        _vm._m(1),
+        _vm._v(" "),
+        _vm._m(2),
+        _vm._v(" "),
+        _vm._m(3),
+        _vm._v(" "),
+        _vm._m(4),
+        _vm._v(" "),
+        _vm._m(5),
+        _vm._v(" "),
+        _vm._m(6),
+        _vm._v(" "),
+        _vm._m(7)
+      ]
+    )
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "inline-block absolute" }, [
-      _c("h1", [_vm._v("Informacije o poslu")]),
+    return _c("div", { staticClass: "mb-4" }, [
+      _c(
+        "label",
+        {
+          staticClass: "block text-gray-700 text-sm font-bold mb-2",
+          attrs: { for: "title" }
+        },
+        [_vm._v("\n        Naslov\n    ")]
+      ),
       _vm._v(" "),
-      _c("form", { staticClass: "bg-white shadow-md rounded px-64" }, [
-        _c("div", { staticClass: "mb-4" }, [
-          _c(
-            "label",
-            {
-              staticClass: "block text-gray-700 text-sm font-bold mb-2",
-              attrs: { for: "title" }
-            },
-            [_vm._v("\n        Naslov\n    ")]
-          ),
-          _vm._v(" "),
-          _c("input", {
-            staticClass:
-              "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline",
-            attrs: { id: "username", type: "text", placeholder: "Naslov" }
-          })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "mb-4" }, [
-          _c(
-            "label",
-            {
-              staticClass: "block text-gray-700 text-sm font-bold mb-2",
-              attrs: { for: "phoneNumber" }
-            },
-            [_vm._v("\n        Broj telefona\n    ")]
-          ),
-          _vm._v(" "),
-          _c("input", {
-            staticClass:
-              "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline",
-            attrs: {
-              id: "phoneNumber",
-              type: "text",
-              placeholder: "Broj telefona"
-            }
-          })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "mb-4" }, [
-          _c(
-            "label",
-            {
-              staticClass: "block text-gray-700 text-sm font-bold mb-2",
-              attrs: { for: "email" }
-            },
-            [_vm._v("\n        Email\n    ")]
-          ),
-          _vm._v(" "),
-          _c("input", {
-            staticClass:
-              "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline",
-            attrs: { id: "email", type: "text", placeholder: "Email" }
-          })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "mb-4" }, [
-          _c(
-            "label",
-            {
-              staticClass: "block text-gray-700 text-sm font-bold mb-2",
-              attrs: { for: "price" }
-            },
-            [_vm._v("\n        Cijena\n    ")]
-          ),
-          _vm._v(" "),
-          _c("input", {
-            staticClass:
-              "inline-block shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline",
-            attrs: { id: "price", type: "text", placeholder: "EUR" }
-          }),
-          _vm._v(" "),
-          _c("input", {
-            staticClass: "inline-block mr-2 leading-tight",
-            attrs: { type: "checkbox" }
-          }),
-          _vm._v(" "),
-          _c("span", { staticClass: "inline-block text-sm" }, [
-            _vm._v("po dogovoru")
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "mb-4" }, [
-          _c(
-            "label",
-            {
-              staticClass: "inline-block text-gray-700 text-sm font-bold mb-2",
-              attrs: { for: "moneyReturn" }
-            },
-            [_vm._v("\n        Povrat novca\n    ")]
-          ),
-          _vm._v(" "),
-          _c("input", {
-            staticClass: "inline-block ml-4 leading-tight",
-            attrs: { type: "checkbox" }
-          })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "mb-4" }, [
-          _c(
-            "label",
-            {
-              staticClass: "block text-gray-700 text-sm font-bold mb-2",
-              attrs: { for: "city" }
-            },
-            [_vm._v("\n        Grad\n    ")]
-          ),
-          _vm._v(" "),
-          _c("input", {
-            staticClass:
-              "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline",
-            attrs: { id: "city", type: "text", placeholder: "Grad" }
-          })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "mb-4" }, [
-          _c(
-            "label",
-            {
-              staticClass: "block text-gray-700 text-sm font-bold mb-2",
-              attrs: { for: "adress" }
-            },
-            [_vm._v("\n        Adresa\n    ")]
-          ),
-          _vm._v(" "),
-          _c("input", {
-            staticClass:
-              "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline",
-            attrs: { id: "adress", type: "text", placeholder: "Adresa" }
-          })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "flex items-center justify-between" }, [
-          _c(
-            "button",
-            {
-              staticClass:
-                "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline",
-              attrs: { type: "button" }
-            },
-            [_vm._v("\n        Unesite specifikacije\n    ")]
-          )
-        ])
+      _c("input", {
+        staticClass:
+          "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline",
+        attrs: {
+          id: "title",
+          name: "title",
+          type: "text",
+          placeholder: "Naslov"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mb-4" }, [
+      _c(
+        "label",
+        {
+          staticClass: "block text-gray-700 text-sm font-bold mb-2",
+          attrs: { for: "phoneNumber" }
+        },
+        [_vm._v("\n        Broj telefona\n    ")]
+      ),
+      _vm._v(" "),
+      _c("input", {
+        staticClass:
+          "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline",
+        attrs: {
+          id: "phoneNumber",
+          name: "phoneNumber",
+          type: "text",
+          placeholder: "Broj telefona"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mb-4" }, [
+      _c(
+        "label",
+        {
+          staticClass: "block text-gray-700 text-sm font-bold mb-2",
+          attrs: { for: "email" }
+        },
+        [_vm._v("\n        Email\n    ")]
+      ),
+      _vm._v(" "),
+      _c("input", {
+        staticClass:
+          "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline",
+        attrs: {
+          id: "email",
+          name: "email",
+          type: "text",
+          placeholder: "Email"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mb-4" }, [
+      _c(
+        "label",
+        {
+          staticClass: "block text-gray-700 text-sm font-bold mb-2",
+          attrs: { for: "price" }
+        },
+        [_vm._v("\n        Cijena\n    ")]
+      ),
+      _vm._v(" "),
+      _c("input", {
+        staticClass:
+          "inline-block shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline",
+        attrs: { id: "price", name: "price", type: "text", placeholder: "EUR" }
+      }),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "inline-block mr-2 leading-tight",
+        attrs: { type: "checkbox" }
+      }),
+      _vm._v(" "),
+      _c("span", { staticClass: "inline-block text-sm" }, [
+        _vm._v("po dogovoru")
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mb-4" }, [
+      _c(
+        "label",
+        {
+          staticClass: "block text-gray-700 text-sm font-bold mb-2",
+          attrs: { for: "city" }
+        },
+        [_vm._v("\n        Grad\n    ")]
+      ),
+      _vm._v(" "),
+      _c("input", {
+        staticClass:
+          "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline",
+        attrs: { id: "city", name: "city", type: "text", placeholder: "Grad" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mb-4" }, [
+      _c(
+        "label",
+        {
+          staticClass: "block text-gray-700 text-sm font-bold mb-2",
+          attrs: { for: "adress" }
+        },
+        [_vm._v("\n        Adresa\n    ")]
+      ),
+      _vm._v(" "),
+      _c("input", {
+        staticClass:
+          "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline",
+        attrs: {
+          id: "adress",
+          name: "adress",
+          type: "text",
+          placeholder: "Adresa"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mb-4" }, [
+      _c(
+        "label",
+        {
+          staticClass: "block text-gray-700 text-sm font-bold mb-2",
+          attrs: { for: "adress" }
+        },
+        [_vm._v("\n        Detaljan opis\n    ")]
+      ),
+      _vm._v(" "),
+      _c("textarea", {
+        staticClass:
+          "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline",
+        attrs: {
+          id: "summary",
+          name: "summary",
+          type: "text",
+          rows: "6",
+          cols: "50",
+          placeholder: "Detaljan opis posla"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "flex items-center justify-between" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "bg-blue-500 hover:bg-blue-700 mb-10 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline",
+          attrs: { type: "submit" }
+        },
+        [_vm._v("\n        Postavite\n    ")]
+      )
     ])
   }
 ]
@@ -51430,15 +51581,17 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _CreateJobForm_vue_vue_type_template_id_63d1f608___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateJobForm.vue?vue&type=template&id=63d1f608& */ "./resources/js/components/createJob/CreateJobForm.vue?vue&type=template&id=63d1f608&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _CreateJobForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateJobForm.vue?vue&type=script&lang=js& */ "./resources/js/components/createJob/CreateJobForm.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-var script = {}
+
+
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _CreateJobForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _CreateJobForm_vue_vue_type_template_id_63d1f608___WEBPACK_IMPORTED_MODULE_0__["render"],
   _CreateJobForm_vue_vue_type_template_id_63d1f608___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
@@ -51452,6 +51605,20 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 if (false) { var api; }
 component.options.__file = "resources/js/components/createJob/CreateJobForm.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/createJob/CreateJobForm.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/createJob/CreateJobForm.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateJobForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./CreateJobForm.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/createJob/CreateJobForm.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateJobForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
