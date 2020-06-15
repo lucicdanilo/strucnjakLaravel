@@ -38193,6 +38193,184 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/createJob/CreateJobForm.vue?vue&type=template&id=63d1f608&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/createJob/CreateJobForm.vue?vue&type=template&id=63d1f608& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "inline-block absolute" }, [
+      _c("h1", [_vm._v("Informacije o poslu")]),
+      _vm._v(" "),
+      _c("form", { staticClass: "bg-white shadow-md rounded px-64" }, [
+        _c("div", { staticClass: "mb-4" }, [
+          _c(
+            "label",
+            {
+              staticClass: "block text-gray-700 text-sm font-bold mb-2",
+              attrs: { for: "title" }
+            },
+            [_vm._v("\n        Naslov\n    ")]
+          ),
+          _vm._v(" "),
+          _c("input", {
+            staticClass:
+              "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline",
+            attrs: { id: "username", type: "text", placeholder: "Naslov" }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "mb-4" }, [
+          _c(
+            "label",
+            {
+              staticClass: "block text-gray-700 text-sm font-bold mb-2",
+              attrs: { for: "phoneNumber" }
+            },
+            [_vm._v("\n        Broj telefona\n    ")]
+          ),
+          _vm._v(" "),
+          _c("input", {
+            staticClass:
+              "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline",
+            attrs: {
+              id: "phoneNumber",
+              type: "text",
+              placeholder: "Broj telefona"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "mb-4" }, [
+          _c(
+            "label",
+            {
+              staticClass: "block text-gray-700 text-sm font-bold mb-2",
+              attrs: { for: "email" }
+            },
+            [_vm._v("\n        Email\n    ")]
+          ),
+          _vm._v(" "),
+          _c("input", {
+            staticClass:
+              "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline",
+            attrs: { id: "email", type: "text", placeholder: "Email" }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "mb-4" }, [
+          _c(
+            "label",
+            {
+              staticClass: "block text-gray-700 text-sm font-bold mb-2",
+              attrs: { for: "price" }
+            },
+            [_vm._v("\n        Cijena\n    ")]
+          ),
+          _vm._v(" "),
+          _c("input", {
+            staticClass:
+              "inline-block shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline",
+            attrs: { id: "price", type: "text", placeholder: "EUR" }
+          }),
+          _vm._v(" "),
+          _c("input", {
+            staticClass: "inline-block mr-2 leading-tight",
+            attrs: { type: "checkbox" }
+          }),
+          _vm._v(" "),
+          _c("span", { staticClass: "inline-block text-sm" }, [
+            _vm._v("po dogovoru")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "mb-4" }, [
+          _c(
+            "label",
+            {
+              staticClass: "inline-block text-gray-700 text-sm font-bold mb-2",
+              attrs: { for: "moneyReturn" }
+            },
+            [_vm._v("\n        Povrat novca\n    ")]
+          ),
+          _vm._v(" "),
+          _c("input", {
+            staticClass: "inline-block ml-4 leading-tight",
+            attrs: { type: "checkbox" }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "mb-4" }, [
+          _c(
+            "label",
+            {
+              staticClass: "block text-gray-700 text-sm font-bold mb-2",
+              attrs: { for: "city" }
+            },
+            [_vm._v("\n        Grad\n    ")]
+          ),
+          _vm._v(" "),
+          _c("input", {
+            staticClass:
+              "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline",
+            attrs: { id: "city", type: "text", placeholder: "Grad" }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "mb-4" }, [
+          _c(
+            "label",
+            {
+              staticClass: "block text-gray-700 text-sm font-bold mb-2",
+              attrs: { for: "adress" }
+            },
+            [_vm._v("\n        Adresa\n    ")]
+          ),
+          _vm._v(" "),
+          _c("input", {
+            staticClass:
+              "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline",
+            attrs: { id: "adress", type: "text", placeholder: "Adresa" }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "flex items-center justify-between" }, [
+          _c(
+            "button",
+            {
+              staticClass:
+                "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline",
+              attrs: { type: "button" }
+            },
+            [_vm._v("\n        Unesite specifikacije\n    ")]
+          )
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/home/HomeContent.vue?vue&type=template&id=fa5e8ad6&":
 /*!*******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/home/HomeContent.vue?vue&type=template&id=fa5e8ad6& ***!
@@ -38219,8 +38397,8 @@ var staticRenderFns = [
       "div",
       { staticClass: "inline-block absolute bg-white h-full w-4/5" },
       [
-        _c("div", { staticClass: "text-grey-800" }, [
-          _c("p", [_vm._v("Hopeeee!")])
+        _c("div", { staticClass: "text-grey-800 p-2" }, [
+          _c("h1", [_vm._v("Hopeee!")])
         ])
       ]
     )
@@ -50834,6 +51012,7 @@ Vue.component('registration-form', __webpack_require__(/*! ./components/Registra
 Vue.component('home-nav-bar', __webpack_require__(/*! ./components/home/HomeNavBar.vue */ "./resources/js/components/home/HomeNavBar.vue")["default"]);
 Vue.component('home-side-bar', __webpack_require__(/*! ./components/home/HomeSideBar.vue */ "./resources/js/components/home/HomeSideBar.vue")["default"]);
 Vue.component('home-content', __webpack_require__(/*! ./components/home/HomeContent */ "./resources/js/components/home/HomeContent.vue")["default"]);
+Vue.component('create-job-form', __webpack_require__(/*! ./components/createJob/CreateJobForm.vue */ "./resources/js/components/createJob/CreateJobForm.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -51236,6 +51415,59 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UserRecommendations_vue_vue_type_template_id_451092f4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UserRecommendations_vue_vue_type_template_id_451092f4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/createJob/CreateJobForm.vue":
+/*!*************************************************************!*\
+  !*** ./resources/js/components/createJob/CreateJobForm.vue ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CreateJobForm_vue_vue_type_template_id_63d1f608___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateJobForm.vue?vue&type=template&id=63d1f608& */ "./resources/js/components/createJob/CreateJobForm.vue?vue&type=template&id=63d1f608&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _CreateJobForm_vue_vue_type_template_id_63d1f608___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CreateJobForm_vue_vue_type_template_id_63d1f608___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/createJob/CreateJobForm.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/createJob/CreateJobForm.vue?vue&type=template&id=63d1f608&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/createJob/CreateJobForm.vue?vue&type=template&id=63d1f608& ***!
+  \********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateJobForm_vue_vue_type_template_id_63d1f608___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./CreateJobForm.vue?vue&type=template&id=63d1f608& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/createJob/CreateJobForm.vue?vue&type=template&id=63d1f608&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateJobForm_vue_vue_type_template_id_63d1f608___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateJobForm_vue_vue_type_template_id_63d1f608___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

@@ -30,6 +30,7 @@ Vue.component('home-nav-bar', require('./components/home/HomeNavBar.vue').defaul
 Vue.component('home-side-bar', require('./components/home/HomeSideBar.vue').default);
 Vue.component('home-content', require('./components/home/HomeContent').default);
 
+Vue.component('create-job-form', require('./components/createJob/CreateJobForm.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

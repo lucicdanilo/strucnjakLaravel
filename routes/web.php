@@ -32,3 +32,5 @@ Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
 Auth::routes();
 
 Route::get('/početna', 'HomeController@index')->name('home');
+Route::get('/kreiranjePosla', 'HomeController@createJob')->name('job');
+
