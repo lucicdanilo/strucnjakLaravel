@@ -28,6 +28,7 @@ Vue.component('registration-form', require('./components/RegistrationForm.vue').
 
 Vue.component('home-nav-bar', require('./components/home/HomeNavBar.vue').default);
 Vue.component('home-side-bar', require('./components/home/HomeSideBar.vue').default);
+Vue.component('home-content', require('./components/home/HomeContent').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

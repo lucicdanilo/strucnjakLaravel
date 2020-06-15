@@ -156,8 +156,8 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="photo">Attach a photograph</label>
-                            <input type="file" name="photo" id="photo" accept="images/*" class="form-control-file">
+                            <label for="photo">Postavite sliku</label>
+                            <input type="file" name="photo" id="photo" accept="images/*" class="form-control-file" required>
                         </div>
 
                         <div class="form-group row mb-0">
