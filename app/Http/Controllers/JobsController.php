@@ -36,6 +36,17 @@ class JobsController extends Controller
      */
     public function store(Request $request)
     {
+        if($request->hasfile('filenames')){
+            foreach($data = $request->file('filenames') as $file){
+                $name = time().'.'.$file->extension();
+                $file->move(public_path().'/jobImages/', $name);  
+                $data[] = $name;
+                // This should be corrected, because for uploaded two images in database create two enteries 
+                // And without upload images return error
+            }
+        }
+
+
         $jobs = new Jobs;
         $jobs->title = $request->input('title');
         $jobs->phoneNumber = $request->input('phoneNumber');
@@ -44,6 +55,7 @@ class JobsController extends Controller
         $jobs->city = $request->input('city');
         $jobs->adress = $request->input('adress');
         $jobs->summary = $request->input('summary');
+        $jobs->filenames=json_encode($data);
         $jobs->save();
         return view('pages/createJob');
     }

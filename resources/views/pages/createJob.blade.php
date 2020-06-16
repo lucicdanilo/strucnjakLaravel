@@ -9,7 +9,7 @@
           <home-nav-bar></home-nav-bar>
           <home-side-bar></home-side-bar>
           <div class="inline-block absolute">
-        <form class="bg-white shadow-md rounded px-64" action="{{ action('JobsController@store') }}" method="POST">
+        <form class="bg-white shadow-md rounded px-64" action="{{ action('JobsController@store') }}" method="POST" enctype="multipart/form-data">
           {{ csrf_field() }}
         <div class="mb-4">
         <label class="block text-gray-700 text-sm font-bold mb-2" for="title">
@@ -50,10 +50,16 @@
             <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="adress" name="adress" type="text" placeholder="Adresa">
         </div>
         <div class="mb-4">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="adress">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="summary">
             Detaljan opis
         </label>
             <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="summary" name="summary" type="text" rows="6" cols="50" placeholder="Detaljan opis posla"></textarea>
+        </div>
+        <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="images">
+            Postavite slike
+        </label>
+            <input type="file" name="filenames[]" multiple>
         </div>
         <div class="flex items-center justify-between">
         <button class="bg-blue-500 hover:bg-blue-700 mb-10 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">

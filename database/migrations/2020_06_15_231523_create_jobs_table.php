@@ -22,6 +22,7 @@ class CreateJobsTable extends Migration
             $table->string('city');
             $table->string('adress');
             $table->string('summary');
+            $table->string('filenames');
             $table->timestamps();
             
         });
